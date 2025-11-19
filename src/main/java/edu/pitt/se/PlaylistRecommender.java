@@ -65,10 +65,12 @@ public class PlaylistRecommender
         if (volumeDb < 0) 
         {
             return 0;
-        } else if (volumeDb > 100) 
+        } 
+        else if (volumeDb > 100) 
         {
             return 100;
-        } else 
+        } 
+        else 
         {
             return volumeDb;
         }

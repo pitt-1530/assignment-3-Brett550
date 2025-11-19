@@ -22,6 +22,7 @@ public class PlaylistRecommenderTest
         assertFalse(PlaylistRecommender.isValidTrackTitle("Invalid Title!"));
         assertFalse(PlaylistRecommender.isValidTrackTitle("Invalid Titleeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee!"));
         assertFalse(PlaylistRecommender.isValidTrackTitle(null));
+        assertFalse(PlaylistRecommender.isValidTrackTitle(""));
     }
 
     @Test
